@@ -21,7 +21,10 @@
  * with this program; if not, write to the Free Software Foundation, Inc., 
  * 675 Mass Ave, Cambridge, MA 02139, USA. */
 
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
+
 #include <string.h>
 
 static int RFCNB_errno = 0;

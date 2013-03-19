@@ -20,7 +20,10 @@
  * with this program; if not, write to the Free Software Foundation, Inc., 
  * 675 Mass Ave, Cambridge, MA 02139, USA. */
 #include <stdio.h>
+
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
 
 int SMBlib_errno;
 int SMBlib_SMB_Error;

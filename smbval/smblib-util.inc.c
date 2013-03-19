@@ -21,7 +21,10 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA. */
 
 #include "smblib-priv.h"
+
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
 
 #include "rfcnb.h"
 

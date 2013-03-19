@@ -21,7 +21,10 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA. */
 
 #include <string.h>
+
+#if !defined(__APPLE__)
 #include <malloc.h>
+#endif
 
 #include "std-includes.h"
 #include "rfcnb-priv.h"
